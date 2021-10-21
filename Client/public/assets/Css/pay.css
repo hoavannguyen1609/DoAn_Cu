@@ -1,0 +1,169 @@
+.content {
+    margin: 3rem 0;
+    padding: 3rem 2rem;
+    border-radius: 0.25rem;
+    background-color: #fff;
+}
+
+.title span {
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pay-list {
+    margin-top: 4rem;
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+.list-product {
+    margin: 0 auto;
+}
+
+.list-product__list {
+    margin-bottom: 4rem;
+}
+
+.list-product__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list-product__items .list-product__box {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 46%;
+}
+
+.list-product__items .list-product__name {
+    margin-left: 1.75rem;
+}
+
+.list-product__img a, .list-product__name a {
+    display: block;
+}
+
+.list-product__img img {
+    width: 160px;
+    max-width: 160px;
+}
+
+.list-product__name span {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.list-product__unit-price span span, .list-product__totalUnitprice span span {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.list-product__amount {
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+}
+
+.list-product__amount .list-product__btn {
+    margin: 0 .75rem;
+}
+
+.list-product__amount button.btn, .list-product__amount input {
+    background-color: #F5F8FD;
+    border: 0.6px solid #777;
+    border-radius: 0.25rem;
+    width: 26px;
+    height: 26px;
+    max-width: 26px;
+    max-height: 26px;
+}
+
+.list-product__amount input {
+    outline: none;
+    text-align: center;
+}
+
+.list-product__input span {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.total-price {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.75rem 0;
+}
+
+.total-price .total-price__text {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.total-price .total-price__child {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--color--doctrine);
+}
+
+.form-info .info-title {
+    text-align: center;
+}
+
+.info-title__title {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.info-form {
+    margin-top: 1.75rem;
+}
+
+.info-form__box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info-form__box:not(:last-child)>div {
+    flex-basis: 50%;
+    margin-top: 0.75rem;
+}
+
+.info-form__box:not(:last-child)>div:first-child {
+    padding-right: 0.75rem;
+}
+
+.info-form__box:not(:last-child)>div:last-child {
+    padding-left: 0.75rem;
+}
+
+.info-form__box:last-child>div {
+    flex-basis: 100%;
+    margin-top: 0.75rem;
+}
+
+.info-form__box:nth-of-type(3) {
+    margin-top: 0.75rem;
+}
+
+.confirm-btn {
+    margin-top: 1.25rem;
+}
+
+.confirm-btn input {
+    width: 100%;
+    background-color: var(--color--doctrine);
+    color: #fff;
+    padding: 0.75rem 0;
+    font-size: 1.3rem;
+}
+
+.confirm-btn input:hover {
+    background-color: #fff;
+    color: var(--color--doctrine);
+    border: 1px solid var(--color--doctrine);
+}
